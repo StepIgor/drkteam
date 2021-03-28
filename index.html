@@ -2,9 +2,33 @@
 <html lang="ru" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Empty</title>
+    <title>В разработке...</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://stepigor.ru/cdn/materialize.min.css">
+    <style>
+      html {
+        width:100%;
+        height:100%;
+        user-select: none;
+      }
+      h2 {
+        animation: appear 5s;
+      }
+      @keyframes appear {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+    </style>
   </head>
-  <body>
-    No content
+  <body class="black white-text">
+    <table style="position:fixed;left:0;top:0;width:100%;height:100%;">
+      <tr>
+        <td style="text-align:center;vertical-align:middle;"><h2 class="light">Сайт в разработке...</h2></td>
+      </tr>
+    </table>
   </body>
 </html>
