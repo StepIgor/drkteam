@@ -1,69 +1,8 @@
 <!DOCTYPE html>
-<html lang="ru" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Полночь позади, впереди рассвет! | DRK Team</title>
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stepigor.ru/cdn/materialize.min.css">
-    <style>
-      html {
-        width:100%;
-        height:100%;
-        user-select: none;
-      }
-	  body {
-		background: #000000;
-		color: white;
-		animation: backgroundfill 3s;
-		animation-delay: 1.5s;
-		animation-fill-mode: forwards;
-	  }
-	  #logo, #label2 {
-		opacity: 0;
-		animation: afterwords 3s;
-		animation-delay: 1.5s;
-		animation-fill-mode: forwards;
-	  }
-	  
-	  @keyframes backgroundfill{
-		0% {
-			background: #000000;
-		}
-		100% {
-			background: #F44336;
-		}
-	  }
-	  
-	  @keyframes afterwords{
-		0% {
-			opacity: 0;
-		}
-		100% {
-			opacity: 1;
-		}
-	  }
-    </style>
-  </head>
-  <body>
-    <table style="position:fixed;left:0;top:0;width:100%;height:100%;">
-      <tr>
-        <td style="text-align:center;vertical-align:middle;"><h2 class="light" id="label"></h2><img id="logo" style="display:none;" src="img/drk_team_logo.png"/><h2 id="label2" class="light" style="display:none;">Веб-сайт в разработке</h2></td>
-      </tr>
-    </table>
-	<script>
-		var words = ['Мы', 'с вами', 'одно', 'сообщество']
-		var ind = 0
-		var elem = setInterval(function(){
-			if (ind < words.length){
-				document.getElementById('label').innerHTML = words[ind]
-				ind++
-			} else {
-				document.getElementById('label').style.display = 'none'
-				document.getElementById('logo').style.display = 'inline'
-				document.getElementById('label2').style.display = 'block'
-				clearInterval(elem)
-			}
-		}, 350)
-	</script>
-  </body>
+<html lang="ru">
+<head>
+	<meta http-equiv="refresh" content="0; url=https://www.drkteam.ru">
+</head>
+<body>
+</body>
 </html>
